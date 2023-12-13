@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'neue montreal';
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.nav-container{
+    background-color: hsl(30,7.69%,94.9%);
+    width: 290px;
+    padding: 10px;
+    border-radius: 50px;
+    position: fixed;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.nav-item1,.nav-item2, .nav-item3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 92px;
+    height: 42px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.nav-item:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-item, .active{
+    background-color: #fff;
+}
+
+/* ---Main Section--- */
+
+.main-container{
+    margin-top: 8%;
+}
+
+main h1{
+    text-align: center;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 86.4px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    gap: 10px;
+}
+
+.button-container p{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.button{
+    display: flex;
+    background-color: #e8e5e480;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    position: relative;
+    bottom: 7.5px;
+}
+
+.special-button{
+    display: flex;
+    background-color: #e8e5e480;
+    width: 120px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    position: relative;
+    bottom: 7.5px;
+}
+
+/*--- Images Section ---*/
+
+.img-container img{
+    width: 650px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin: 10px;
+}
+
+.img-container video{
+    width: 650px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin: 10px;
+}
+
+.img-container{
+    display: grid;
+    grid-template-columns:repeat(2,1fr); /* 3 columns */
+    margin: 8%;
+}
+
+/*--- Footer 1 ---*/
+
+.footer1-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.footer1 h2{
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.footer1 a{
+    font-size: 38px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.footer1 a:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/*---Footer---*/
+.footer-container{
+    margin: 10px;
+    display: flex;
+    margin-top: 9%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    
+    justify-content: flex-end;
+    width: 70%;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    align-items: center;
+    gap: 20px;
+    padding-right: 7%;
+}
+
+.social a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.social a:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-btn{
+    position: relative;
+    left: 22%;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+.footer-btn:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-container p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-container a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-container a:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
